@@ -1,0 +1,20 @@
+backend:
+  name: github
+  repo: mrpedrasani/front-row-club-blog # Substitua pelo seu nome de usuário/nome do repositório
+  branch: main # Substitua pela sua branch principal (master ou main)
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  - name: "blog"
+    label: "Blog Posts"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+
