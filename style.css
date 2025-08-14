@@ -1,0 +1,115 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #0056b3;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5em;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 15px;
+}
+
+h2 {
+    color: #0056b3;
+    font-size: 1.8em;
+    margin-top: 30px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #007bff;
+    font-size: 1.4em;
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+li:before {
+    content: '•';
+    color: #007bff;
+    position: absolute;
+    left: 0;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.credits {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 50px;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* Estilos para o conteúdo do blog */
+#content h1 {
+    font-size: 2.2em;
+    color: #333;
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+}
+
+#content h2 {
+    font-size: 1.6em;
+    color: #555;
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 8px;
+    margin-top: 25px;
+}
+
+#content h3 {
+    font-size: 1.3em;
+    color: #777;
+    margin-top: 15px;
+}
+
+#content ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+#content li:before {
+    content: none;
+}
+
+#content li {
+    padding-left: 0;
+}
+
+#content p {
+    text-align: justify;
+}
+
+
